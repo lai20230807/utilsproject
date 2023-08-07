@@ -19,7 +19,7 @@ public class DataBaseTest {
     private DataBaseService dataBaseService;
 
     @Test
-    public void testDataBaseTableField() { // 测试TEST
+    public void testDataBaseTableField() { // 测试
         String tableName = "t_order";
         List<DataBaseField> dataBaseField = dataBaseService.getDataBaseField(tableName);
         System.out.println("aaaaa");
