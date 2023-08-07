@@ -19,7 +19,7 @@ public class DataBaseTest {
     private DataBaseService dataBaseService;
 
     @Test
-    public void testDataBaseTableField() { // 测试
+    public void testDataBaseTableField() { // 测试分支推送合入
         String tableName = "t_order";
         List<DataBaseField> dataBaseField = dataBaseService.getDataBaseField(tableName);
         System.out.println("aaaaa");
